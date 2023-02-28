@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ActionButton = ({buttons}) => {
+const ActionButton = (props) => {
   return (
     <div>
       <a href="#_" class="relative inline-block text-lg group">
@@ -11,7 +11,7 @@ const ActionButton = ({buttons}) => {
 
             <span class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
 
-            <span class="relative">Button Text</span>
+            <span class="relative">{props.buttonText}</span>
 
             </span>
 

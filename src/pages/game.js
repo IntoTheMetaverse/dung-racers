@@ -57,16 +57,16 @@ const Home = () => {
             </div>
           <div class="absolute top-1/2 w-full h-1/2">
             <div class="absolute w-1/6 py-2.5 top-1/4 left-1/3 leading-4 z-40">
-              <ActionButton/>
+              <ActionButton buttonText='Evade'/>
             </div>
             <div class="absolute w-1/6 py-2.5 bottom-1/3 left-1/3 leading-4 z-40" >
-              <ActionButton/>
+              <ActionButton buttonText='Hide'/>
             </div>
             <div class="absolute w-1/6 py-2.5 top-1/4 bottom-1/6 left-1/2 leading-4 z-40">
-              <ActionButton/>
+              <ActionButton buttonText='Attack'/>
             </div>
             <div class="absolute w-1/6 py-2.5 bottom-1/3 left-1/2 leading-4 z-40">
-              <ActionButton/>
+              <ActionButton buttonText='Jump'/>
             </div>          
           </div>
         </div>
